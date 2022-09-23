@@ -133,25 +133,6 @@ img {
    }
 }
 
-@media screen and (max-width:680px) and (min-width: 481px ) {
-    main .lessons .col img {
-        height: 150px;
-    }
-
-    main .steps .row {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    main .steps .row .col {
-        width: calc(100% / 2); 
-    }
-
-    main .steps .row  > .col:last-child {
-        margin-top: 30px;
-    }
-}
-
 @media screen and (max-width: 480px) {
     main .row {
         flex-direction: column;
