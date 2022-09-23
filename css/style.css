@@ -127,3 +127,8 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+@media screen (max-width:480px) {
+    main .lessons .row {
+        flex-direction: column;
+    }
+}
