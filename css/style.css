@@ -134,15 +134,15 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-    main .lessons .row {
+    main .row {
         flex-direction: column;
     }
 
-    main .lessons .row .col {
+    main .row .col {
         width: 100%;
     }
 
-    main .lessons .row > .col:first-child {
+    main .row > .col:not(.col:last-child) {
         margin-bottom: 70px;
     }
 
