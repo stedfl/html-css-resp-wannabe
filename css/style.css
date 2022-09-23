@@ -129,7 +129,7 @@ img {
  ************************************************/
 @media screen and (max-width: 1140px) {
    .container {
-    width: 100%;
+        width: 100%;
    }
 }
 
@@ -144,6 +144,14 @@ img {
 
     main .row > .col:not(.col:last-child) {
         margin-bottom: 70px;
+    }
+    
+    main .lessons .col p, main .steps .col p {
+        padding: 0 3.1rem;
+    }
+
+    main .why-us .col, .why-us h2  {
+        padding: 0 4.2rem;
     }
 }
 
